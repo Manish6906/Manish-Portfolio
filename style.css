@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1501959181532-7d2a3c064642?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1493&q=80");
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(142, 142, 233);
+    font-size: 1.1rem;
+}
+
+.left {
+    font-size: 2rem;
+
+}
+
+.leftSection {
+    padding: 2.2%;
+    font-size: 20px;
+    color: rgba(62, 185, 220, 0.983);
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftSection span {
+    color: rgb(232, 4, 8);
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.leftSection h1 {
+    margin: 0;
+    padding-left: 8px;
+}
+
+.leftSection h2 {
+    margin: 0;
+    padding-left: 8px;
+}
+
+ul li {
+    color: white;
+}
+
+.left {
+    color: rgb(175, 104, 165);
+}
+
+.about p {
+    margin: 25px;
+    color: rgb(0, 1, 0);
+}
+
+.about h1 {
+    padding-top: 26%;
+    display: flex;
+    justify-content: center;
+    color: red;
+    text-decoration: underline;
+}
+
+.about span {
+    color: black;
+    font-size: 40px;
+}
+
+.skill {
+    display: flex;
+    justify-content: center;
+    color: rgb(225, 16, 16);
+    text-decoration: underline;
+}
+
+.skill span {
+    color: black;
+    font-size: 40px;
+}
+
+img {
+    margin-right: 100px;
+}
+
+.manish1 {
+    padding-top: 2%;
+}
+
+.Contact ul li {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(14, 12, 12);
+}
+
+.Contact ul h1 span {
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+
+}
+
+.contact h1 {
+    padding-top: 2%;
+    color: red;
+    text-decoration: underline;
+}
+
+.contact h1 span {
+    padding-left: 5%;
+    color: black;
+}
+
+.social-icon {
+    padding-left: 5%;
+    font-size: 500%;
+}
+
+.social-icon a:hover {
+    color: green;
+    transform: translate(5px);
+}
+
+.contact p {
+    padding-left: 5%;
+}
+.contact p:hover{
+    color: rgb(89, 60, 229);
+    transform: translate(5px);
+}
+
+.CV a {
+    font-size: 30px;
+    padding-left: 5%;
+    color: rgb(23, 21, 27);
+}
+.CV a:hover{
+    color: rgb(84, 57, 236);
+    transform: translate(5px);
+}
+
+form input,
+form textarea {
+    width: 80;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form input {
+    margin: 1%;
+    display: flex;
+    justify-content: left;
+}
+
+form {
+    padding-top: 2%;
+    padding-left: 65%;
+    margin: 3%;
+}
+
+form textarea {
+    margin: 1%;
+}
+
+form button {
+    font-size: 20px;
+    color: rgb(19, 17, 21);
+}
+
+.contact-right {
+    font-size: 50px;
+}
+.contact-right button:hover{
+    color: rgb(47, 40, 237);
+    transform: translate(1px);
+}
+.mohali {
+    justify-content: center;
+    padding-left: 30%;
+    background-color: gray;
+    font-size: 25px;
+}
